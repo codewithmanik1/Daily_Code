@@ -23,10 +23,15 @@ class Demo{
 
         //declared arralist
         ArrayList<Integer> arr = new ArrayList<Integer>(n);
+        System.out.println("Size of Arraylist " + arr.size());
+        System.out.println("is empty " + arr.isEmpty());
+        
+
         System.out.println("Enter the elements");
         for(int i=0; i<n; i++){
             arr.add(Integer.parseInt(br.readLine()));
         }
+        System.out.println("Size of Arraylist " + arr.size());
 
         int ans = uniqueEle(arr,n);
         System.out.println("Unique element in array is  "+ ans);
