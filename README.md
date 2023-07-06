@@ -1,1 +1,1 @@
-Daily Code
+<h1>Daily Code</h1>
